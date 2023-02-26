@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cancel-loop-with-token", "cancel-loop-with-token\cancel-loop-with-token.csproj", "{F0FE33BB-06B4-4D6D-86E1-EEC4B15D783B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0FE33BB-06B4-4D6D-86E1-EEC4B15D783B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FE33BB-06B4-4D6D-86E1-EEC4B15D783B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FE33BB-06B4-4D6D-86E1-EEC4B15D783B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FE33BB-06B4-4D6D-86E1-EEC4B15D783B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCFAAD41-D18D-4443-974D-E299D0C319CD}
+	EndGlobalSection
+EndGlobal
