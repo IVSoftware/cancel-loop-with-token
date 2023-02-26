@@ -1,4 +1,6 @@
-﻿namespace cancel_loop_with_token
+﻿using System.Runtime.InteropServices;
+
+namespace cancel_loop_with_token
 {
     internal class Program
     {
@@ -25,6 +27,17 @@
             Thread.Sleep(10000);
             _cts.Cancel();
             Console.ReadKey();
+        }
+        [DllImport("kernel32.dll", ExactSpelling = true)]
+        public static extern IntPtr GetConsoleWindow();
+
+        [DllImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        public static extern bool SetForegroundWindow(IntPtr hWnd);
+
+        public void BringConsoleToFront()
+        {
+            SetForegroundWindow(GetConsoleWindow());
         }
     }
 }
